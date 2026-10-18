@@ -1,0 +1,5 @@
+model,n_features,lc_train_RMSE,lc_CV_RMSE,lc_gap,train_RMSE_JanApr,val_RMSE_May
+Model A,5,27.006,27.629,0.623,26.1817,31.8916
+Model B,4094,10.635,172.019,161.385,10.8422,337.6152
+Model A + S3 Ridge,296,14.692,15.739,1.046,14.6424,16.2617
+Model B + Ridge(3000),4094,20.897,21.354,0.457,20.4577,20.5244

@@ -1,0 +1,5 @@
+model,train_RMSE,train_R2,val_RMSE,val_R2
+"Baseline LR, y",25.0893,0.144,29.3745,0.0988
+"Baseline LR, log1p(y)",28.4616,-0.1015,38.1585,-0.5208
+"Rich Ridge (S3), y",14.5605,0.7117,16.5955,0.7124
+"Rich Ridge (S3), log1p(y)",14.6424,0.7085,16.2617,0.7238

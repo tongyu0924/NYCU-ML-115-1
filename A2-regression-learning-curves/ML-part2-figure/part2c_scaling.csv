@@ -1,0 +1,13 @@
+model,scaler,val_RMSE,val_R2,GD_iterations
+LinearRegression,none,18.6237,0.6377,
+LinearRegression,standard,18.6237,0.6377,
+LinearRegression,minmax,18.6237,0.6377,
+LinearRegression,robust,18.6237,0.6377,
+Ridge (alpha=1000),none,20.459,0.5628,
+Ridge (alpha=1000),standard,20.3613,0.567,
+Ridge (alpha=1000),minmax,20.6805,0.5533,
+Ridge (alpha=1000),robust,20.3923,0.5657,
+SGDRegressor (eta0=0.01),none,inf (diverged),-inf,231
+SGDRegressor (eta0=0.01),standard,18.6844,0.6354,18
+SGDRegressor (eta0=0.01),minmax,18.5749,0.6396,17
+SGDRegressor (eta0=0.01),robust,18.6107,0.6383,17
