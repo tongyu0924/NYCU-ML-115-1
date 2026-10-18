@@ -30,6 +30,7 @@ feature engineering and scaling, and learning-curve diagnosis with a Kaggle lead
 |---|---|
 | `A2_315511079.pdf` | Report (Part I derivations, results, analysis) |
 | `A2_315511079.ipynb` | Part II and Part III: exploration, feature engineering, scaling, learning curves, final model and submission |
+| `kaggle_submission.csv` | Final test-set predictions submitted to the Kaggle leaderboard (21,600 rows, test RMSE 11.68) |
 | `ML-part2-figure/`, `ML-part3-figure/` | Exported figures and result tables |
 
 ## Key results
