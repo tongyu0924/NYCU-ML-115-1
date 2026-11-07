@@ -1,0 +1,32 @@
+component,gradient,relative error
+affine,dX,5.71265114037935e-10
+affine,dW,3.927029834517413e-10
+affine,db,5.648896580310788e-10
+relu,dZ,6.50380912224385e-11
+sigmoid,dZ,1.4424647924785946e-09
+softmax loss,dS,2.361343660842202e-09
+hinge loss,dS,6.988901124005461e-11
+"net[relu, softmax]",W1,4.31821780417353e-09
+"net[relu, softmax]",b1,1.1392526456420057e-08
+"net[relu, softmax]",W2,2.3243958302485953e-09
+"net[relu, softmax]",b2,3.369212051206835e-10
+"net[relu, softmax]",W3,1.9783806905670794e-09
+"net[relu, softmax]",b3,1.0697604045873074e-10
+"net[relu, hinge]",W1,1.651219492441731e-09
+"net[relu, hinge]",b1,2.594378730424529e-10
+"net[relu, hinge]",W2,4.9322390973053475e-09
+"net[relu, hinge]",b2,1.2437486243041134e-10
+"net[relu, hinge]",W3,1.876454491316741e-09
+"net[relu, hinge]",b3,6.988901124005461e-11
+"net[sigmoid, softmax]",W1,9.73327500810793e-09
+"net[sigmoid, softmax]",b1,4.268223794384194e-09
+"net[sigmoid, softmax]",W2,2.109624636959934e-09
+"net[sigmoid, softmax]",b2,7.926023132052198e-09
+"net[sigmoid, softmax]",W3,1.571827975231619e-09
+"net[sigmoid, softmax]",b3,9.455995788117956e-11
+"net[sigmoid, hinge]",W1,1.1418770626041531e-07
+"net[sigmoid, hinge]",b1,8.77785039894364e-09
+"net[sigmoid, hinge]",W2,3.376244412690668e-08
+"net[sigmoid, hinge]",b2,1.08374475939824e-09
+"net[sigmoid, hinge]",W3,6.653582503435968e-10
+"net[sigmoid, hinge]",b3,6.988901124005461e-11

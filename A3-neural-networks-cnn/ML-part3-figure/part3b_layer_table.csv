@@ -1,0 +1,29 @@
+layer,type,"output shape (C, H, W)",parameters
+net.0,Conv2d,"(64, 32, 32)",1728
+net.1,BatchNorm2d,"(64, 32, 32)",128
+net.2,ReLU,"(64, 32, 32)",0
+net.3,Conv2d,"(64, 32, 32)",36864
+net.4,BatchNorm2d,"(64, 32, 32)",128
+net.5,ReLU,"(64, 32, 32)",0
+net.6,MaxPool2d,"(64, 16, 16)",0
+net.7,Dropout,"(64, 16, 16)",0
+net.8,Conv2d,"(128, 16, 16)",73728
+net.9,BatchNorm2d,"(128, 16, 16)",256
+net.10,ReLU,"(128, 16, 16)",0
+net.11,Conv2d,"(128, 16, 16)",147456
+net.12,BatchNorm2d,"(128, 16, 16)",256
+net.13,ReLU,"(128, 16, 16)",0
+net.14,MaxPool2d,"(128, 8, 8)",0
+net.15,Dropout,"(128, 8, 8)",0
+net.16,Conv2d,"(256, 8, 8)",294912
+net.17,BatchNorm2d,"(256, 8, 8)",512
+net.18,ReLU,"(256, 8, 8)",0
+net.19,Conv2d,"(256, 8, 8)",589824
+net.20,BatchNorm2d,"(256, 8, 8)",512
+net.21,ReLU,"(256, 8, 8)",0
+net.22,MaxPool2d,"(256, 4, 4)",0
+net.23,Dropout,"(256, 4, 4)",0
+net.24,AdaptiveAvgPool2d,"(256, 1, 1)",0
+net.25,Flatten,"(256,)",0
+net.26,Linear,"(10,)",2570
+,TOTAL,,1148874
